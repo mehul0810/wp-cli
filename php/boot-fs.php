@@ -1,6 +1,6 @@
 <?php
 
-// This file needs to parse without error in PHP < 5.3
+// This file needs to parse without error in PHP < 5.3.
 
 if ( 'cli' !== PHP_SAPI ) {
 	echo "Only CLI access.\n";
